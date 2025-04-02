@@ -1,0 +1,46 @@
+{
+    "detail_pages": [],
+    "branding": {
+      "footer_login": true
+    },
+    "content": [
+      "posts"
+    ],
+    "core_data": {
+      "url": "https://staging.coredata.cloud",
+      "project_ids": [
+        "154"
+      ]
+    },
+    "i18n": {
+      "default_locale": "en",
+      "locales": [
+        "en"
+      ]
+    },
+    "layers": [],
+    "search": [
+      {
+        "name": "items",
+        "route": "/items",
+        "geosearch": true,
+        "facets": [],
+        "map": {
+          "geometry": "37a538a9-44e4-4fc3-a5da-456fe8a3f6a7.geometry",
+          "max_zoom": 14,
+          "zoom_to_place": true
+        },
+        "result_card": {
+          "title": "name"
+        },
+        "typesense": {
+          "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+          "port": 443,
+          "protocol": "https",
+          "api_key": "xpOQg3553RSKo8tNEMd36Ad8UbROw0lc",
+          "index_name": "gwc",
+          "query_by": "name"
+        }
+      }
+    ]
+  }
