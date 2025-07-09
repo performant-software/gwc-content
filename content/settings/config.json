@@ -7,9 +7,9 @@
       "posts"
     ],
     "core_data": {
-      "url": "https://staging.coredata.cloud",
+      "url": "https://app.coredata.cloud",
       "project_ids": [
-        "154"
+        "91"
       ]
     },
     "i18n": {
@@ -24,21 +24,30 @@
         "name": "items",
         "route": "/items",
         "geosearch": true,
-        "facets": [],
+        "facets": [
+          {
+            "name": "6482cd6c-6f8c-46dd-b89a-ea548fade985_facet",
+            "type": "select"
+          }
+        ],
         "map": {
-          "geometry": "37a538a9-44e4-4fc3-a5da-456fe8a3f6a7.geometry",
+          "geometry": "9790b6d5-64fd-47fa-bf7b-dd421610a4be.geometry",
           "max_zoom": 14,
           "zoom_to_place": true
         },
         "result_card": {
           "title": "name"
         },
+        "timeline": {
+          "date_range_facet": "event_range_facet",
+          "event_path": "1e1781fe-3276-46de-80be-75402fb95d78"
+        },
         "typesense": {
-          "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+          "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
           "port": 443,
           "protocol": "https",
-          "api_key": "xpOQg3553RSKo8tNEMd36Ad8UbROw0lc",
-          "index_name": "gwc",
+          "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
+          "index_name": "items",
           "query_by": "name"
         }
       }
