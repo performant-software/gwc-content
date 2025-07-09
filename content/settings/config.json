@@ -54,7 +54,8 @@
           "protocol": "https",
           "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
           "index_name": "items",
-          "query_by": "name"
+          "query_by": "name",
+          "default_sort": "name"
         }
       }
     ]
