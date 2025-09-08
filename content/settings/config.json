@@ -1,62 +1,67 @@
 {
-    "detail_pages": [],
-    "branding": {
-      "footer_login": true
-    },
-    "content": [
-      "posts"
-    ],
-    "core_data": {
-      "url": "https://app.coredata.cloud",
-      "project_ids": [
-        "91"
-      ]
-    },
-    "i18n": {
-      "default_locale": "en",
-      "locales": [
-        "en"
-      ]
-    },
-    "layers": [
-      {
-        "name": "Maptiler DataViz Style",
-        "layer_type": "vector",
-        "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
-      }
-    ],
-    "search": [
-      {
-        "name": "items",
-        "route": "/items",
-        "geosearch": true,
-        "facets": [
-          {
-            "name": "6482cd6c-6f8c-46dd-b89a-ea548fade985_facet",
-            "type": "select"
-          }
-        ],
-        "map": {
-          "geometry": "9790b6d5-64fd-47fa-bf7b-dd421610a4be.geometry",
-          "max_zoom": 14,
-          "zoom_to_place": true
-        },
-        "result_card": {
-          "title": "name"
-        },
-        "timeline": {
-          "date_range_facet": "event_range_facet",
-          "event_path": "1e1781fe-3276-46de-80be-75402fb95d78"
-        },
-        "typesense": {
-          "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
-          "port": 443,
-          "protocol": "https",
-          "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
-          "index_name": "items",
-          "query_by": "name",
-          "default_sort": "name"
-        }
-      }
+  "detail_pages": [],
+  "branding": {
+    "footer_login": true
+  },
+  "content": {
+    "collections": [
+      "Paths",
+      "Posts"
     ]
-  }
+  },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "91"
+    ]
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "search": [
+    {
+      "name": "items",
+      "route": "/items",
+      "geosearch": true,
+      "facets": [
+        {
+          "name": "6482cd6c-6f8c-46dd-b89a-ea548fade985_facet",
+          "type": [
+            "select"
+          ]
+        }
+      ],
+      "map": {
+        "geometry": "9790b6d5-64fd-47fa-bf7b-dd421610a4be.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "1e1781fe-3276-46de-80be-75402fb95d78"
+      },
+      "typesense": {
+        "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
+        "index_name": "items",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    }
+  ]
+}
