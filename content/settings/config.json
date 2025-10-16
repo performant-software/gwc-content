@@ -5,8 +5,8 @@
   },
   "content": {
     "collections": [
-      "Paths",
-      "Posts"
+      "paths",
+      "posts"
     ]
   },
   "core_data": {
@@ -59,6 +59,31 @@
         "protocol": "https",
         "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
         "index_name": "items",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    },
+    {
+      "name": "events",
+      "route": "/events",
+      "geosearch": true,
+      "map": {
+        "geometry": "b9190c82-024f-4e69-9460-f39099218935.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet"
+      },
+      "typesense": {
+        "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
+        "index_name": "events",
         "query_by": "name",
         "default_sort": "name"
       }
