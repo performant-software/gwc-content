@@ -78,6 +78,13 @@
       },
       "typesense": {
         "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
+        "facets": {
+          "include": [
+            "start_year_facet",
+            "end_year_facet",
+            "b9190c82-024f-4e69-9460-f39099218935.name_facet"
+          ]
+        },
         "port": 443,
         "protocol": "https",
         "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
