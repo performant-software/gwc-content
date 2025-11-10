@@ -36,9 +36,7 @@
       "facets": [
         {
           "name": "6482cd6c-6f8c-46dd-b89a-ea548fade985_facet",
-          "type": [
-            "select"
-          ]
+          "type": "select"
         }
       ],
       "map": {
