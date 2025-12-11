@@ -74,7 +74,7 @@
         "title": "name"
       },
       "timeline": {
-        "date_range_facet": "event_range_facet"
+        "date_range_facet": "start_year_facet"
       },
       "typesense": {
         "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
