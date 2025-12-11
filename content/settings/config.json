@@ -1,5 +1,8 @@
 {
-  "detail_pages": [],
+  "detail_pages": [
+    "events",
+    "items"
+  ],
   "branding": {
     "footer_login": true
   },
