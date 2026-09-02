@@ -1,8 +1,10 @@
 {
-  "detail_pages": [
-    "events",
-    "items"
-  ],
+  "detail_pages": {
+    "models": {
+      "events": {},
+      "items": {}
+    }
+  },
   "branding": {
     "footer_login": true
   },
