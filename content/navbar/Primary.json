@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "label": "Explore",
+      "options": [
+        {
+          "label": "Items",
+          "href": "/en/search/items/"
+        },
+        {
+          "label": "Geopolitical Contexts",
+          "href": "/en/search/events/"
+        },
+        {
+          "label": "Saved Searches",
+          "href": "/en/sessions/search/"
+        }
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "Regions",
+      "href": "/en/pages/Regions",
+      "_template": "URL"
+    },
+    {
+      "label": "Stories",
+      "href": "/en/pages/Stories",
+      "_template": "URL"
+    },
+    {
+      "label": "About",
+      "href": "/en/pages/About",
+      "_template": "URL"
+    },
+    {
+      "label": "Documentation",
+      "href": "/en/pages/Documentation",
+      "_template": "URL"
+    },
+    {
+      "label": "Blog",
+      "href": "/en/pages/Blog",
+      "_template": "URL"
+    }
+  ]
+}
