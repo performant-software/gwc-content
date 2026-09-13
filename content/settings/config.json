@@ -1,10 +1,4 @@
 {
-  "detail_pages": {
-    "models": {
-      "events": {},
-      "items": {}
-    }
-  },
   "branding": {
     "footer_login": true
   },
@@ -12,13 +6,26 @@
     "collections": [
       "paths",
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "categories": [
+        "Region",
+        "Story",
+        "Blog"
+      ]
+    }
   },
   "core_data": {
     "url": "https://fairdata.performant.studio",
     "project_ids": [
       "91"
     ]
+  },
+  "detail_pages": {
+    "models": {
+      "events": {},
+      "items": {}
+    }
   },
   "i18n": {
     "default_locale": "en",
@@ -89,19 +96,19 @@
       },
       "typesense": {
         "host": "k98lgompxwv3z56yp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
+        "index_name": "events",
+        "query_by": "name",
+        "default_sort": "name",
         "facets": {
           "include": [
             "start_year_facet",
             "end_year_facet",
             "b9190c82-024f-4e69-9460-f39099218935.name_facet"
           ]
-        },
-        "port": 443,
-        "protocol": "https",
-        "api_key": "64LJPWe7zfWDV7H5S4ccQPPLNahWj4iI",
-        "index_name": "events",
-        "query_by": "name",
-        "default_sort": "name"
+        }
       }
     }
   ]
