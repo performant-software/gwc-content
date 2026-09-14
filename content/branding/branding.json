@@ -10,6 +10,11 @@
         "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/MellonFoundationLogomark-WordmarkLockup_Black.png",
         "image_alt": "Mellon Foundation",
         "url": "https://www.mellon.org/"
+      },
+      {
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/hidden-stories-logo-color.png",
+        "image_alt": "Hidden Stories",
+        "url": "https://hiddenstories.library.utoronto.ca/"
       }
     ]
   }
