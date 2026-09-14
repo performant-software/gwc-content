@@ -4,6 +4,13 @@
     "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/gwc-header-montage-tina-upload-v2.jpg"
   },
   "footer": {
-    "allow_login": true
+    "allow_login": true,
+    "logos": [
+      {
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/MellonFoundationLogomark-WordmarkLockup_Black.png",
+        "image_alt": "Mellon Foundation",
+        "url": "https://www.mellon.org/"
+      }
+    ]
   }
 }
