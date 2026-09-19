@@ -1,7 +1,23 @@
 {
   "title": "Global Writing Cultures",
+  "font_header": "Libre Bodoni",
+  "header_size": "64px",
+  "page_header_size": "48px",
+  "header_font_weight": "400",
+  "header_capitalization": "normal",
+  "font_body": "Afacad",
+  "primary_color": "#F0E2C6",
+  "secondary_color": "#A24B32",
+  "tertiary_color": "#475B63",
+  "background_color": "#FFFDF8",
+  "background_alternate": "#E9DFD0",
+  "content_color": "#1B1815",
+  "content_alternate": "#5C4439",
+  "content_inverse": "#1B1815",
+  "content_inverse_alternate": "#5C4439",
   "header": {
-    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/gwc-header-montage-tina-upload-v3.jpg"
+    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/gwc-header-uncial-above-montage.png",
+    "hide_title": true
   },
   "footer": {
     "allow_login": true,
@@ -15,6 +31,11 @@
         "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/hidden-stories-logo-color.png",
         "image_alt": "Hidden Stories",
         "url": "https://hiddenstories.library.utoronto.ca/"
+      },
+      {
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/university-of-iowa-block-logo-black.png",
+        "image_alt": "University of Iowa",
+        "url": "https://uiowa.edu/"
       }
     ]
   }
