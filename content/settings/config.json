@@ -66,9 +66,9 @@
       "default": false
     },
     {
-      "name": "Medieval Europe c. 1200 — Harvard MAPS/DARMC (major towns)",
+      "name": "MAPS/DARMC — Medieval Towns & Routes (CC BY-NC-SA 4.0)",
       "layer_type": "geojson",
-      "url": "https://services1.arcgis.com/qN3V93cYGMKQCOxL/ArcGIS/rest/services/DARMC_Medieval_World/FeatureServer/10/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "url": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/maps-darmc-medieval-towns-routes-cc-by-nc-sa-4.json",
       "overlay": true,
       "default": false
     },
