@@ -55,14 +55,42 @@
     },
     {
       "name": "MapTiler Satellite (© MapTiler)",
-      "layer_type": "vector",
-      "url": "https://api.maptiler.com/maps/satellite/style.json?key=WLMbLZP1AwK3zUFTeheB",
+      "layer_type": "raster",
+      "url": "https://api.maptiler.com/tiles/satellite-v2/{z}/{x}/{y}.jpg?key=WLMbLZP1AwK3zUFTeheB",
       "default": false
     },
     {
       "name": "Ancient World — CAWM/AWMC (CC BY 4.0)",
       "layer_type": "raster",
       "url": "https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png",
+      "default": false
+    },
+    {
+      "name": "Medieval Europe c. 1200 — Harvard MAPS/DARMC (major towns)",
+      "layer_type": "geojson",
+      "url": "https://services1.arcgis.com/qN3V93cYGMKQCOxL/ArcGIS/rest/services/DARMC_Medieval_World/FeatureServer/10/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "overlay": true,
+      "default": false
+    },
+    {
+      "name": "Medieval China c. 1200 — CHGIS v6, Harvard/Fudan (prefectural seats)",
+      "layer_type": "geojson",
+      "url": "https://services7.arcgis.com/iEMmryaM5E3wkdnU/arcgis/rest/services/China_Prefecture_Seats_1200/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "overlay": true,
+      "default": false
+    },
+    {
+      "name": "Early Islamic Routes — al-Thurayya (Seydi & Romanov; after Cornu)",
+      "layer_type": "geojson",
+      "url": "https://althurayya.github.io/master/routes.json",
+      "overlay": true,
+      "default": false
+    },
+    {
+      "name": "Syriac Places — Syriaca.org Gazetteer (CC BY 4.0)",
+      "layer_type": "geojson",
+      "url": "https://syriaca.org/geo/places.json",
+      "overlay": true,
       "default": false
     }
   ],
