@@ -55,8 +55,8 @@
     },
     {
       "name": "MapTiler Satellite (© MapTiler)",
-      "layer_type": "raster",
-      "url": "https://api.maptiler.com/tiles/satellite-v4/{z}/{x}/{y}.jpg?key=WLMbLZP1AwK3zUFTeheB",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/satellite/style.json?key=WLMbLZP1AwK3zUFTeheB",
       "default": false
     },
     {
