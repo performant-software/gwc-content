@@ -12,7 +12,8 @@
         "Region",
         "Story",
         "Blog"
-      ]
+      ],
+      "layout": "grid"
     }
   },
   "core_data": {
