@@ -102,9 +102,9 @@
       "default": false
     },
     {
-      "name": "Silk Route Cities Pilot — Getty/ODC-BY · Pleiades/CC BY · GeoNames/CC BY · OSM/ODbL · GWC",
+      "name": "Silk Route Cities Pilot (places only) — Getty/ODC-BY · Pleiades/CC BY · GeoNames/CC BY · OSM/ODbL · GWC",
       "layer_type": "geojson",
-      "url": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/silk-road-places-gwc-2026-10-13.json",
+      "url": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/silk-road-places-gwc-points-2026-10-13.json",
       "overlay": true,
       "default": false
     }
@@ -176,6 +176,11 @@
     }
   ],
   "history": [
+    {
+      "user_email": "paul-dilley@uiowa.edu",
+      "timestamp": "2026-10-13T17:16:51.760Z",
+      "user_id": "user_3DJoZEeQf0XY4C0SVgUQEhR8q6a"
+    },
     {
       "user_email": "paul-dilley@uiowa.edu",
       "timestamp": "2026-10-13T16:28:46.588Z",
