@@ -28,18 +28,23 @@
         "url": "https://www.mellon.org/"
       },
       {
-        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/hidden-stories-logo-color.png",
-        "image_alt": "Hidden Stories",
-        "url": "https://hiddenstories.library.utoronto.ca/"
-      },
-      {
         "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/university-of-iowa-block-logo-black.png",
         "image_alt": "University of Iowa",
         "url": "https://uiowa.edu/"
+      },
+      {
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/hidden-stories-logo-color.png",
+        "image_alt": "Hidden Stories",
+        "url": "https://hiddenstories.library.utoronto.ca/"
       }
     ]
   },
   "history": [
+    {
+      "user_email": "paul-dilley@uiowa.edu",
+      "timestamp": "2026-10-18T19:29:10.583Z",
+      "user_id": "user_3DJoZEeQf0XY4C0SVgUQEhR8q6a"
+    },
     {
       "user_email": "paul-dilley@uiowa.edu",
       "timestamp": "2026-10-18T18:25:58.031Z",
