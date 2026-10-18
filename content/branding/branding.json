@@ -16,7 +16,7 @@
   "content_inverse": "#1B1815",
   "content_inverse_alternate": "#5C4439",
   "header": {
-    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/gwc-header-uncial-above-montage.png",
+    "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gwc-content/gwc-header-12-panel-montage-v2.png",
     "hide_title": true
   },
   "footer": {
@@ -38,5 +38,12 @@
         "url": "https://uiowa.edu/"
       }
     ]
-  }
+  },
+  "history": [
+    {
+      "user_email": "paul-dilley@uiowa.edu",
+      "timestamp": "2026-10-18T18:25:58.031Z",
+      "user_id": "user_3DJoZEeQf0XY4C0SVgUQEhR8q6a"
+    }
+  ]
 }
